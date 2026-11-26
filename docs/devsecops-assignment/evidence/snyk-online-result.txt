@@ -1,0 +1,412 @@
+Created Thu 26th Nov 2026
+Snapshot taken by snyk.io
+3 minutes ago
+Retest now
+IMPORTED BY
+T
+tsurtsumia
+PROJECT OWNER
+ Add a project owner
+TESTED WITH
+package-lock.json,package.json
+ENVIRONMENT
+ Add environment
+BUSINESS CRITICALITY
+ Add business criticality
+LIFECYCLE
+ Add lifecycle
+Issues 71
+Fixes
+Dependencies 112
+ Fix these vulnerabilities
+SEVERITY
+Critical
+4
+High
+26
+Medium
+36
+Low
+5
+PRIORITY SCORE
+Scored between 0 - 1000
+The slider shows a range from 0 to 1000. The value(s) currently selected are: 0 to 1000.
+"FIXED IN" AVAILABLE
+Yes
+71
+No
+0
+COMPUTED FIXABILITY
+Fixable
+51
+Partially fixable
+1
+No supported fix
+19
+EXPLOIT MATURITY
+Mature
+0
+Proof of concept
+43
+No known exploit
+28
+No data
+0
+CVSS 4 EXPLOIT MATURITY
+Attacked
+0
+Proof of concept
+43
+Not defined
+28
+STATUS
+Open
+71
+Patched
+0
+Ignored
+0
+71 of 71 issues
+Group by dependency
+Sort by highest priority score
+NEW
+Did you know…
+In this view, Snyk now defaults to grouping vulnerabilities by dependency. To switch back to the legacy view, click the Group by dropdown on the right side of the page.
+C
+form-data@4.0.0
+2 direct issues
+PRIORITY SCORE (MAX)
+791
+Fixable issues 2
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to form-data@4.0.4 fixes 1 issue
+PRIORITY SCORE
+C
+Predictable Value Range from Previous Values
+CWE-343
+OPEN THIS LINK IN A NEW TAB
+CVSS 9.4
+OPEN THIS LINK IN A NEW TAB
+791
+⋯
+Upgrading to form-data@4.0.6 fixes 1 issue
+M
+CRLF Injection
+CWE-93
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.9
+OPEN THIS LINK IN A NEW TAB
+666
+⋯
+⇧ Upgrade to 4.0.4
+▼
+C
+axios@0.21.4
+27 direct issues, 5 transitive issues
+PRIORITY SCORE (MAX)
+776
+Fixable issues 27
+Issues with no supported fix 5
+Vulnerable dependencies ...
+Upgrading to axios@0.28.0 fixes 1 issue
+PRIORITY SCORE
+H
+Cross-site Request Forgery (CSRF)
+CWE-352
+OPEN THIS LINK IN A NEW TAB
+CVSS 7.1
+OPEN THIS LINK IN A NEW TAB
+676
+⋯
+Upgrading to axios@0.29.0 fixes 1 issue
+M
+Regular Expression Denial of Service (ReDoS)
+CWE-1333
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.9
+OPEN THIS LINK IN A NEW TAB
+666
+⋯
+Upgrading to axios@0.30.0 fixes 3 issues
+M
+Allocation of Resources Without Limits or Throttling
+CWE-770
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.9
+OPEN THIS LINK IN A NEW TAB
+666
+⋯
+M
+Server-side Request Forgery (SSRF)
+CWE-918
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.2
+OPEN THIS LINK IN A NEW TAB
+631
+⋯
+M
+Server-side Request Forgery (SSRF)
+CWE-918
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.2
+OPEN THIS LINK IN A NEW TAB
+524
+⋯
+Show 5 more upgrades
+⇧ Upgrade to 0.28.0
+▼
+H
+qs@6.10.1
+5 direct issues
+PRIORITY SCORE (MAX)
+756
+Fixable issues 5
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to qs@6.10.3 fixes 1 issue
+PRIORITY SCORE
+H
+Prototype Poisoning
+CWE-1321
+OPEN THIS LINK IN A NEW TAB
+CVSS 7.5
+OPEN THIS LINK IN A NEW TAB
+696
+⋯
+Upgrading to qs@6.14.1 fixes 1 issue
+H
+Allocation of Resources Without Limits or Throttling
+CWE-770
+OPEN THIS LINK IN A NEW TAB
+CVSS 8.7
+OPEN THIS LINK IN A NEW TAB
+756
+⋯
+Upgrading to qs@6.14.2 fixes 1 issue
+H
+Allocation of Resources Without Limits or Throttling
+CWE-770
+OPEN THIS LINK IN A NEW TAB
+CVSS 8.2
+OPEN THIS LINK IN A NEW TAB
+731
+⋯
+Show 2 more upgrades
+⇧ Upgrade to 6.10.3
+▼
+C
+express@4.17.1
+2 direct issues, 18 transitive issues
+PRIORITY SCORE (MAX)
+756
+Fixable issues 19
+Issues with no supported fix 1
+Vulnerable dependencies ...
+Upgrading to express@4.17.3 fixes 1 issue
+PRIORITY SCORE
+H
+Prototype Poisoning
+↳ qs@6.7.0
+CWE-1321
+OPEN THIS LINK IN A NEW TAB
+CVSS 7.5
+OPEN THIS LINK IN A NEW TAB
+696
+⋯
+Upgrading to express@4.19.2 fixes 1 issue
+M
+Open Redirect
+CWE-601
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.1
+OPEN THIS LINK IN A NEW TAB
+519
+⋯
+Upgrading to express@4.20.0 fixes 5 issues
+M
+Regular Expression Denial of Service (ReDoS)
+↳ path-to-regexp@0.1.7
+CWE-1333
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.9
+OPEN THIS LINK IN A NEW TAB
+666
+⋯
+H
+Asymmetric Resource Consumption (Amplification)
+↳ body-parser@1.19.0
+CWE-405
+OPEN THIS LINK IN A NEW TAB
+CVSS 8.2
+OPEN THIS LINK IN A NEW TAB
+624
+⋯
+M
+Cross-site Scripting
+CWE-79
+OPEN THIS LINK IN A NEW TAB
+CVSS 5.1
+OPEN THIS LINK IN A NEW TAB
+469
+⋯
+Show more issues
+Show 5 more upgrades
+⇧ Upgrade to 4.17.3
+▼
+H
+ejs@3.1.6
+2 direct issues, 13 transitive issues
+PRIORITY SCORE (MAX)
+726
+Fixable issues 3
+Issues with no supported fix 12
+Vulnerable dependencies ...
+Upgrading to ejs@3.1.7 fixes 1 issue
+PRIORITY SCORE
+H
+Remote Code Execution (RCE)
+CWE-94
+OPEN THIS LINK IN A NEW TAB
+CVSS 8.1
+OPEN THIS LINK IN A NEW TAB
+726
+⋯
+Upgrading to ejs@3.1.10 fixes 1 issue
+M
+Improper Control of Dynamically-Managed Code Resources
+CWE-915
+OPEN THIS LINK IN A NEW TAB
+CVSS 5.3
+OPEN THIS LINK IN A NEW TAB
+586
+⋯
+Upgrading to ejs@5.0.1 fixes 1 issue MAJOR UPGRADE
+M
+Asymmetric Resource Consumption (Amplification)
+↳ minimatch@3.0.4
+CWE-405
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.9
+OPEN THIS LINK IN A NEW TAB
+559
+⋯
+⇧ Upgrade to 3.1.7
+▼
+H
+luxon@2.0.2
+1 direct issue
+PRIORITY SCORE (MAX)
+696
+Fixable issues 1
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to luxon@2.5.2 fixes 1 issue
+PRIORITY SCORE
+H
+Regular Expression Denial of Service (ReDoS)
+CWE-1333
+OPEN THIS LINK IN A NEW TAB
+CVSS 7.5
+OPEN THIS LINK IN A NEW TAB
+696
+⋯
+⇧ Upgrade to 2.5.2
+▼
+M
+express-rate-limit@5.3.0
+1 direct issue
+PRIORITY SCORE (MAX)
+601
+Fixable issues 1
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to express-rate-limit@8.7.2 fixes 1 issue MAJOR UPGRADE
+PRIORITY SCORE
+M
+Improper Enforcement of Behavioral Workflow
+CWE-841
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.3
+OPEN THIS LINK IN A NEW TAB
+601
+⋯
+⇧ Upgrade to 8.7.2
+▼
+M
+express-session@1.17.2
+2 transitive issues
+PRIORITY SCORE (MAX)
+529
+Fixable issues 2
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to express-session@1.18.1 fixes 1 issue
+PRIORITY SCORE
+M
+Cross-site Scripting (XSS)
+↳ cookie@0.4.1
+CWE-79
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.3
+OPEN THIS LINK IN A NEW TAB
+529
+⋯
+Upgrading to express-session@1.18.2 fixes 1 issue
+M
+Improper Handling of Unexpected Data Type
+↳ on-headers@1.0.2
+CWE-241
+OPEN THIS LINK IN A NEW TAB
+CVSS 4.6
+OPEN THIS LINK IN A NEW TAB
+444
+⋯
+⇧ Upgrade to 1.18.1
+▼
+M
+passport@0.4.1
+1 direct issue
+PRIORITY SCORE (MAX)
+454
+Fixable issues 1
+Issues with no supported fix 0
+Vulnerable dependencies ...
+Upgrading to passport@0.6.0 fixes 1 issue
+PRIORITY SCORE
+M
+Session Fixation
+CWE-384
+OPEN THIS LINK IN A NEW TAB
+CVSS 4.8
+OPEN THIS LINK IN A NEW TAB
+454
+⋯
+⇧ Upgrade to 0.6.0
+▼
+M
+config@3.3.6
+2 transitive issues
+PRIORITY SCORE (MAX)
+427
+Fixable issues 0
+Issues with no supported fix 2
+Vulnerable dependencies ...
+M
+Prototype Pollution
+↳ json5@2.2.0
+CWE-1321
+OPEN THIS LINK IN A NEW TAB
+CVSS 6.4
+OPEN THIS LINK IN A NEW TAB
+427
+⋯
+L
+Prototype Pollution
+↳ minimist@1.2.5
+CWE-1321
+OPEN THIS LINK IN A NEW TAB
+CVSS 3.7
+OPEN THIS LINK IN A NEW TAB
+292
+⋯

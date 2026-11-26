@@ -1,0 +1,43 @@
+{
+  "upstream": "https://github.com/snyk/snyk-apps-demo",
+  "fork": "https://github.com/tsurts/snyk-apps-demo",
+  "baseline": {
+    "branch": "training-baseline",
+    "commit": "273f07abee422f44d730638f6c78499b224d5969",
+    "createdAt": "2026-11-26T10:32:21.4939921+04:00",
+    "vulnerabilityFindings": 114,
+    "severities": {
+      "CRITICAL": 6,
+      "HIGH": 52,
+      "MEDIUM": 41,
+      "LOW": 15,
+      "UNKNOWN": 0
+    },
+    "secretFindings": 0
+  },
+  "current": {
+    "branch": "main",
+    "commit": "aaf1b69929e66b881dbb013896e0cb28ec43017c",
+    "createdAt": "2026-11-26T10:29:08.1335223+04:00",
+    "vulnerabilityFindings": 26,
+    "severities": {
+      "CRITICAL": 0,
+      "HIGH": 15,
+      "MEDIUM": 8,
+      "LOW": 3,
+      "UNKNOWN": 0
+    },
+    "secretFindings": 0
+  },
+  "trivy": {
+    "version": "0.76.2",
+    "windowsArchiveSha256": "691f737a7e5566a673c3a74dab9160552ec32101e953b659e5c77443d16dddb6",
+    "command": "trivy fs --include-dev-deps --scanners vuln,secret --format json --output <report.json> ."
+  },
+  "notes": [
+    "Counts represent package-version/advisory findings, not distinct CVEs.",
+    "Neither the application nor dependency install scripts were executed.",
+    "Trivy filesystem scans cover the checked-out tree, not all Git history.",
+    "Snyk online evidence is collected separately."
+  ]
+}

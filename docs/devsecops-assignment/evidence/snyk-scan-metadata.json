@@ -1,0 +1,28 @@
+{
+  "projectUrl": "https://app.snyk.io/org/tsurts/project/30eb2b24-3be2-460a-b7fb-f09a59973826",
+  "target": "tsurts/snyk-apps-demo",
+  "targetReference": "training-baseline",
+  "scannedFiles": [
+    "package.json",
+    "package-lock.json"
+  ],
+  "observedAt": "2026-11-26T06:43:03.529Z",
+  "onlineCounts": {
+    "critical": 4,
+    "high": 26,
+    "medium": 36,
+    "low": 5
+  },
+  "selectedIssue": {
+    "package": "form-data",
+    "installedVersion": "4.0.0",
+    "cve": "CVE-2025-7783",
+    "snykId": "SNYK-JS-FORMDATA-10841150",
+    "severity": "Critical",
+    "cvssVersion": "4.0",
+    "cvssScore": 9.4,
+    "minimumFixedVersion4x": "4.0.4",
+    "recommendedVersion4x": "4.0.6"
+  },
+  "limitation": "Separate tsconfig.json import reported a JSON parsing error; dependency project was successfully created and scanned."
+}
